@@ -1,0 +1,51 @@
+*{ 
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+
+.love {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color:  rgb(239, 71, 150);
+    color: rgb(250, 247, 248);
+    height: 30px;
+    padding: 50px;
+}
+
+.yuh {
+    display: flex;
+    margin-right: 90px;
+}
+
+/* .signs {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.signs {
+
+    display:flex;
+    flex-direction: column;
+
+} */
+/* .whole {
+    display:flex;
+
+} */
+
+/* .sag {
+    font-family:cursive;
+}
+
+.sag1 {
+    font-family:cursive;
+} */
+
+.p1 {
+    font-family:cursive;
+}
