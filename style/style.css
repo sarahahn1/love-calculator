@@ -49,3 +49,11 @@
 .p1 {
     font-family:cursive;
 }
+.percent1 {
+    width: 100vw;
+    height: 200px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}

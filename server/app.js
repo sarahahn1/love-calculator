@@ -46,7 +46,7 @@ app.post('/', (req,res) => {
     
     let secondDigit = m + a + t + e
     let lovePercentage = firstDigit + '' + secondDigit
-    
+    res.status(200).send(lovePercentage)
 })
 
 

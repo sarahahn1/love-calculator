@@ -12,18 +12,28 @@ function basicFunction(evt) {
         userName: textBox1.value,
         partnerName: textBox2.value,
     }
-    axios.post("/", postObj)
 
+
+    console.log(textBox1.value + ' ' + textBox2.value)
+   
+    axios.post("/", postObj)
     .then ((res) => {
-    console.log(res.body)
+    console.log(res.data)
+
+    let percent = document.createElement("h1")
+    percent.textContent = (res.data + '%')
+    let section = document.getElementById("percent1")
+    section.innerHTML=""
+    section.appendChild(percent)
     })
     .catch ((err) => {
         console.log('error')
     })
 
-    console.log(textBox1.value + ' ' + textBox2.value)
+
 }
 
 
 
 button.addEventListener("click", basicFunction)
+
