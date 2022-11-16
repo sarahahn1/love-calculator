@@ -10,6 +10,8 @@ app.use(express.json())
 
 app.use (express.static('style'))
 
+const {getFortune} = require('./controller')
+
 app.get("/", (req, res) => {
     console.log('serving in home')
     res.sendFile(path.join(__dirname, "./../style/main.html"))
@@ -17,6 +19,7 @@ app.get("/", (req, res) => {
 
 })
 
+app.get('/randomFortune', getFortune)
 
 
 
