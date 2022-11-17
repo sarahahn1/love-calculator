@@ -7,7 +7,51 @@
         "id": 2,
         "fortune": "You and your crush are soulmates !"
     },
-{
+    {
+        "id": 3,
+        "fortune": "you will live happily ever after"
+    },
+
+    {
+        "id": 4,  
+        "fortune": "You will find success in your love life"
+    },
+    {
+        "id": 5,  
+        "fortune": "someone better is coming"
+    },
+    {
+        "id": 6,  
+        "fortune": "you're getting married soon;)"
+    },
+    {
+        "id": 7,  
+        "fortune": "You will find love soon!"
+    },
+    {
+        "id": 8,  
+        "fortune": "UH oh."
+    },
+    {
+        "id": 9,  
+        "fortune": " you and this person sitting in a tree, k i s s i n g"
+    },
+    {
+        "id": 10,  
+        "fortune": "your love life is a mess don't even bother"
+    },
+    {
+        "id": 11,  
+        "fortune": "you don't need someone in your life right now"
+    },
+    {
+        "id": 12,  
+        "fortune": "Your gonna have trouble with your love life for a while"
+    },
+
+    {
+        "id": 13,  
+        "fortune": "i'm sorry but they just don't like you"
+    }
     
-}
 ]

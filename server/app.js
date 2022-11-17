@@ -10,7 +10,7 @@ app.use(express.json())
 
 app.use (express.static('style'))
 
-const {getFortune} = require('./controller')
+const {getFortune, getZodiac} = require('./controller')
 
 app.get("/", (req, res) => {
     console.log('serving in home')
@@ -20,7 +20,7 @@ app.get("/", (req, res) => {
 })
 
 app.get('/randomFortune', getFortune)
-
+app.get('/zodiac', getZodiac)
 
 
 app.post('/', (req,res) => {
